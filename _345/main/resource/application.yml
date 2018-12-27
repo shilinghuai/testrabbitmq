@@ -1,0 +1,14 @@
+server:
+  port: 9003
+spring:
+  rabbitmq:
+    addresses: 59.110.174.60
+    port: 5672
+    username: guest
+    password: guest
+
+
+rabbitmq:
+  exchange: quntum.exchange1
+  addressKey: quntum.router.key1
+  quntumInQueue: quntum.address.sync.queue1
